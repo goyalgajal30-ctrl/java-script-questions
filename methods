@@ -1,0 +1,47 @@
+// 1. Number.isInteger :- to check number is integer
+
+// console.log(Number.isInteger(344)); 
+// console.log(Number.isInteger("str"));
+// console.log(Number.isInteger(10.123));
+
+//2. Number.isNaN
+
+// console.log(Number.isNaN(" "));     //false
+// console.log(Number.isNaN(NaN));     //true
+// console.log(10/"abc");              //NaN
+// console.log("ghy"/"abc");              //NaN
+// console.log(10/ "10");           //1
+//  console.log(10 -"10");           //0
+//  console.log(10 *"10");           //100
+//  console.log(10 + "10");           //1010   not works in addition
+
+// console.log(NaN == NaN)              //false
+// console.log(NaN === NaN)             //false
+
+// console.log(10 + 30 + "10");            //not working
+
+
+//3. number.infinite
+
+// console.log(Number.isFinite(10));
+// console.log(Number.isFinite(NaN));
+// console.log(Number.isFinite(Infinity));
+// console.log(Number.isFinite(- Infinity));
+// console.log(Number.isFinite("abc"));
+
+
+//4. parseInt :- convert string to number
+
+// console.log(parseInt("10"));
+// console.log(parseInt(10));
+// console.log(parseInt("10.55"));
+// console.log(parseInt("10ab"));
+// console.log(parseInt("ab10"));
+
+//5. parseFloat :- convert string to float
+
+// console.log(parseFloat("23.43"));
+// console.log(parseFloat("23"));
+// console.log(parseFloat(23.43));
+// console.log(parseFloat("23.43ab"));
+// console.log(parseFloat("ab23.43"));
