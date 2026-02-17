@@ -1,0 +1,18 @@
+// let n = 10;
+// console.log(Number.isInteger(n)); 
+
+//q2
+// let s = "123.45";
+
+// Number(s);      // 123.45
+// parseInt(s);    // 123
+// parseFloat(s);  // 123.45
+
+//q3
+// let x = NaN;
+// console.log(typeof x);        // "number"
+// console.log(isNaN(x));        // true
+// console.log(Number.isNaN(x)); // true
+
+//q4
+// Math.round(4.7); // 5
