@@ -16,3 +16,6 @@
 
 //q4
 // Math.round(4.7); // 5
+//q5
+// Math.floor(4.2); // 4
+// Math.ceil(4.8);  // 5
