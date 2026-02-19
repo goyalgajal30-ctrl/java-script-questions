@@ -19,3 +19,46 @@
 //q5
 // Math.floor(4.2); // 4
 // Math.ceil(4.8);  // 5
+
+//q5
+// Math.floor(4.2); // 4
+// Math.ceil(4.8);  // 5
+
+//q6
+// let n = 12.3456;
+// n.toFixed(2); // "12.35"
+
+//q7
+// Math.abs(-25); // 25
+
+//q8
+// Number.isFinite(100);      // true
+// Number.isFinite(Infinity); // false
+
+//q9
+// let n = 10;
+// String(n);   // "10"
+// n.toString(); // "10"
+
+//q10
+// Math.max(10, 5, 8, 20); // 20
+
+//q11
+// Math.min(3, 7, 1, 9); // 1
+
+//q12
+// Math.random();
+
+//q13
+// Math.floor(Math.random() * 10) + 1;
+
+//q14
+// let n = -5;
+
+// if (n > 0) console.log("Positive");
+// else if (n < 0) console.log("Negative");
+// else console.log("Zero");
+
+//q15
+// let x = 4.9;
+// parseInt(x); // 4
