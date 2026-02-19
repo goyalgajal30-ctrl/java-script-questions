@@ -45,3 +45,62 @@
 // console.log(parseFloat(23.43));
 // console.log(parseFloat("23.43ab"));
 // console.log(parseFloat("ab23.43"));
+
+// 6. toFixed() :- roundof number and return string
+
+// let a = 12.33;
+
+// console.log(a.toFixed());
+// console.log(a.toFixed(1));
+// console.log(a.toFixed(2));
+// console.log(a.toFixed(3));
+// console.log(a.toFixed(4));
+// console.log(a.toFixed(5));
+
+//7. toPrecision
+
+// let a  = 12.555
+// console.log(a.toPrecision(5));
+// console.log(a.toPrecision(2));
+// console.log(a.toPrecision(3));
+// console.log(a.toPrecision(4));
+
+//8. toString() :- number-> string
+
+// let a = 102;
+// let b = a.toString()
+// console.log(typeof b)
+// console.log(typeof a)
+// console.log(a)
+// console.log(b)
+
+// for(let i = 1; i<b.length; i++){
+//     console.log(i);
+// }
+
+
+// let a = 5;
+// let b = 8;
+
+// a = a+b;
+// b = a-b;
+// a = a-b;
+
+// console.log(`a = ${a}`);
+// console.log(`b = ${b}`);
+
+//9.  math.floor      
+// console.log(Math.floor(10.54))
+// console.log(Math.floor(10.8))
+// console.log(Math.floor(9.8))
+// console.log(Math.floor(6.8))
+// console.log(Math.floor(12.31));
+
+//10. Math.ceil        
+// console.log(Math.ceil(10.43))
+// console.log(Math.ceil(10.4))
+// console.log(Math.ceil(1.2))
+// console.log(Math.ceil(-2.6))
+// console.log(Math.ceil(-2.6 + 3.4))
+// console.log(Math.ceil(-2.6 -3.45))
+// console.log(Math.ceil(-2.45))
