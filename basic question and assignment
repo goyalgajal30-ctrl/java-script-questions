@@ -62,3 +62,107 @@
 //q15
 // let x = 4.9;
 // parseInt(x); // 4
+
+//q16
+// Math.sqrt(25); // 5
+
+//q17
+// Math.pow(2, 3); // 8
+// // OR
+// 2 ** 3; // 8
+
+//q18
+// let n = 3.14159;
+// Number(n.toFixed(2)); // 3.14
+
+//q19
+// Math.floor(Math.random() * 51) + 50;
+
+//q20
+// let n = 4.3;
+// Math.ceil(n) - Math.floor(n); // 1
+
+//q21
+// let n = 6;
+// console.log(n % 2 === 0 ? "Even" : "Odd");
+
+//q22
+// let n = 123;
+// let sum = 0;
+
+// while (n > 0) {
+//   sum += n % 10;
+//   n = Math.floor(n / 10);
+// }
+// console.log(sum); // 6
+
+//q23
+// let n = 1234;
+// let rev = 0;
+
+// while (n > 0) {
+//   rev = rev * 10 + (n % 10);
+//   n = Math.floor(n / 10);
+// }
+// console.log(rev); // 4321
+
+//q24
+// let n = 121;
+// let temp = n, rev = 0;
+
+// while (n > 0) {
+//   rev = rev * 10 + (n % 10);
+//   n = Math.floor(n / 10);
+// }
+
+// console.log(temp === rev); // true
+
+//q25
+// let n = 5, fact = 1;
+
+// for (let i = 1; i <= n; i++) {
+//   fact *= i;
+// }
+// console.log(fact); // 120
+
+//q26
+// let n = 7;
+// let isPrime = true;
+
+// if (n <= 1) isPrime = false;
+
+// for (let i = 2; i <= Math.sqrt(n); i++) {
+//   if (n % i === 0) {
+//     isPrime = false;
+//     break;
+//   }
+// }
+
+// console.log(isPrime);
+
+//q27
+// let a = 12, b = 18;
+
+// while (b !== 0) {
+//   let t = b;
+//   b = a % b;
+//   a = t;
+// }
+// console.log(a); // 6
+
+
+//q28
+// let a = 12, b = 18;
+
+// let gcd = (x, y) => y === 0 ? x : gcd(y, x % y);
+// let lcm = (a * b) / gcd(a, b);
+
+// console.log(lcm); // 36
+
+
+//q29
+// Math.trunc(4.9); // 4
+
+//q30
+// Math.floor(100000 + Math.random() * 900000);
+
