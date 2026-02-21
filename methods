@@ -104,3 +104,53 @@
 // console.log(Math.ceil(-2.6 + 3.4))
 // console.log(Math.ceil(-2.6 -3.45))
 // console.log(Math.ceil(-2.45))
+
+11. Math.round       ye proper/complete round off krega 
+// console.log(Math.round(4.56))
+// console.log(Math.round(4.5))
+// console.log(Math.round(6.5))
+// console.log(Math.round(-4.56))
+// console.log(Math.round(5.3))
+
+// 12. Math.random    (0-1) it will give random values
+// console.log(Math.random(4.3))
+// console.log(Math.random(4.6))
+// console.log(Math.random(67.5))
+// console.log(Math.random(-67.5))
+// console.log(Math.random())
+// console.log(Math.random())
+// console.log(Math.random())
+// console.log(Math.random())
+
+//  string to number
+// let a = Number("10")
+// console.log(typeof a)
+// let b = "123";
+// console.log(b);
+// console.log(typeof +b)
+
+
+// Math.trunc() :- remove decimal digits
+// console.log(Math.trunc(10.55))
+// console.log(Math.trunc(-10.55))
+// console.log(Math.trunc(2.456))
+
+//Math.max() :- return max value
+// console.log(Math.max(12,34,22,43))
+// console.log(Math.max(12,34,22,-43))
+
+// Math.min():- return min value
+// console.log(Math.min(45,-23,-12,45))
+// console.log(Math.min(45,3,2,45))
+
+
+//16. Math.pow  : use for power calculation 
+// console.log(Math.pow(3,4))
+// console.log(Math.pow(-3,7))
+// console.log(Math.pow(54,4))
+
+//17. Math.sqrt: to find square root 
+// console.log(Math.sqrt(35))
+// console.log(Math.sqrt(64))
+// console.log(Math.sqrt(144))
+// console.log(Math.sqrt(-144))
