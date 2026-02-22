@@ -154,3 +154,45 @@
 // console.log(Math.sqrt(64))
 // console.log(Math.sqrt(144))
 // console.log(Math.sqrt(-144))
+
+//18. Math.cbrt : to find the cube root 
+// console.log(Math.cbrt(27))
+// console.log(Math.cbrt(125))
+// console.log(Math.cbrt(8))
+
+//19. Math.abs : to find absolute number
+// console.log(Math.abs(-2))
+// console.log(Math.abs(2))
+// console.log(Math.abs(992))
+// console.log(Math.abs(-90-9))
+// console.log(Math.abs(-9.34))
+
+//20. number to string  
+// let a = 45;
+// let b = a.toString()
+// console.log(b)
+// console.log(typeof b);
+
+//21. Math.sign : if postive then return 1, if negative then return -1, and if 0 then it will return 0
+// console.log(Math.sign(-1))
+// console.log(Math.sign(0))
+// console.log(Math.sign(9))
+// console.log(Math.sign(34.6))
+// console.log(Math.sign(-34.6))
+
+// let str = "hello javascript";
+
+// for(let i = 0; i<str.length; i++){
+//     console.log(str[i]);
+// }
+
+// let str = "hi js";
+// for(let x of name){
+//     print.out
+// }
+
+
+// let s = "hello js";
+// console.log(s.at(-1));  //s
+// console.log(s.at(6));   //j
+
