@@ -166,3 +166,48 @@
 //q30
 // Math.floor(100000 + Math.random() * 900000);
 
+//q31
+// let n = 25;
+// console.log(Number.isInteger(Math.sqrt(n))); // true
+
+//q32
+// let n = 153;
+// let temp = n, sum = 0;
+
+// while (n > 0) {
+//   let d = n % 10;
+//   sum += d ** 3;
+//   n = Math.floor(n / 10);
+// }
+
+// console.log(sum === temp); // true
+
+//q33
+// Number.MAX_SAFE_INTEGER; // 9007199254740991
+
+//q34
+// 0.1 + 0.2 === 0.3; // false
+
+//q35
+let N = 10;
+let sum = 0;
+
+function isPrime(n) {
+  if (n <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(n); i++)
+    if (n % i === 0) return false;
+  return true;
+}
+for (let i = 2; i <= N; i++) {
+  if (isPrime(i)) sum += i;
+}
+console.log(sum);
+
+
+
+
+
+
+
+
+
